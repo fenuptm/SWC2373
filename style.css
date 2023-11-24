@@ -1,0 +1,63 @@
+css
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Change the font if needed */
+    margin: 0;
+    padding: 0;
+    background: #20bf55; /* Green background color */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Root container */
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Video embed */
+#root video {
+    outline: none; /* Remove outline */
+    max-width: 100%;
+}
+
+/* "Back to Dashboard" button styles */
+.back-to-dashboard {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.back-to-dashboard button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #20bf55; /* Text color for the button */
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-to-dashboard button:hover {
+    background-color: #20bf55; /* Button background color on hover */
+    color: #ffffff; /* Text color on hover */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
